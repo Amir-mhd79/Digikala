@@ -1,0 +1,1451 @@
+/*
+version:1.0.0
+author:Amirmohammad Akbarloo
+*/
+body{
+    margin: 0px;
+}
+@font-face{
+    font-family: B-nazanin;
+    src: url(../fonts/B-nazanin/B-NAZANIN.TTF);
+    src: url(../fonts/B-nazanin/B-NAZANIN.eot);
+    src: url(../fonts/B-nazanin/B-NAZANIN.woff);
+    src: url(../fonts/B-nazanin/B-NAZANIN.woff2);
+}
+header{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+header>a>img.poshte-miz{
+    width: 100%;
+    height: auto;
+}
+main>div.search{
+    width: 1500px;
+    height: 60px;
+    margin: auto;
+}
+main>div>div.logo{
+    display: inline-block;
+    width: 115px;
+    height: auto;
+}
+main>div>div>a>img.digikala-logo{
+    width: 115px;
+    height: 60px;
+}
+main>div>div.jostojo{
+    display: inline-block;
+    width: 40%;
+    height: 50px;
+    margin-left: 38%;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+main>div>div>form>input.input1{
+    width: 600px;
+    height: 45px;
+    border: none;
+    background-color:#F0F0F1;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 25px;
+    font-family: B-nazanin;
+    white-space: pre;
+}
+main>div>div.icon-1{
+    display: inline-block;
+    width: 150px;
+    height:45px ;
+    background-color: rgba(118, 102, 116, 0.734);
+    margin-bottom:10px ;
+    border-radius: 10px;
+}
+
+
+
+
+
+main>nav.menu{
+    width: 1500px;
+    height: 68px;
+    margin: auto;
+    margin-top: 10px;
+}
+.li1{
+    all: unset;
+}
+main>nav>ul>li.li2{
+    all: unset;
+    margin-left: 30%;
+}
+a{
+    text-decoration: unset;
+    color: unset;
+}
+main>nav>ul>li>a.dastebandi{
+    display: inline-block;
+    width: 125px;
+    height: 45px;
+    background-color: rgba(240, 128, 128, 0.595);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-family: B-nazanin;
+    transition: all 500ms linear;
+}
+main>nav>ul>li>a.dastebandi:hover{
+    width: 145px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    background-color: coral;
+    transition: all 300ms linear;
+}
+main>nav>ul>li>a.supermarket-1{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: rgba(173, 216, 230, 0.622);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-family: B-nazanin;
+    transition: all 500ms linear;
+}
+main>nav>ul>li>a.supermarket-1:hover{
+    width: 155px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(40, 189, 239);
+    transition: all 300ms linear;
+}
+main>nav>ul>li>a.porforosh{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: rgba(32, 178, 103, 0.563);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-family: B-nazanin;
+    transition: all 500ms linear;
+}
+main>nav>ul>li>a.porforosh:hover{
+    width: 155px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(38, 133, 38);
+    transition: all 300ms linear;
+}
+main>nav>ul>li>a.takhfif1{
+    display: inline-block;
+    width: 145px;
+    height: 45px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-family: B-nazanin;
+    transition: all 500ms linear;
+}
+main>nav>ul>li>a.takhfif1:hover{
+    width: 165px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(214, 101, 56);
+    transition: all 300ms linear;
+}
+main>nav>ul>li>a.soal{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: rgb(250, 250, 167);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-family: B-nazanin;
+    transition: all 500ms linear;
+}
+main>nav>ul>li>a.soal:hover{
+    width: 155px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 53);
+    transition: all 300ms linear;
+}
+main>nav>ul>li>a.foroshande{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color:lightgray;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-family: B-nazanin;
+    transition: all 500ms linear;
+}
+main>nav>ul>li>a.foroshande:hover{
+    width: 155px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(105, 105, 105, 0.659);
+    transition: all 300ms linear;
+}
+main>nav>ul>li>a.location{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-family: B-nazanin;
+    transition: all 300ms linear;
+}
+main>nav>ul>li>a.location:hover{
+    width: 155px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(251, 183, 100);
+    transition: all 300ms linear;
+}
+
+
+
+
+
+main>div.slider{
+    width: 100%;
+    height: 400px;
+}
+main>div>a>img.slider1{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+
+main>div.icon-2{
+    width:1350px;
+    height: 100px;
+    margin: auto; 
+    margin-bottom: 40px;
+}
+.text1{
+    width: max-content;
+    font-family: B-nazanin;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text2{
+    width: 60px;
+    font-family: B-nazanin;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+main>div>div.digikalajet{
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 4%;
+    text-align: center;
+}
+main>div>div>a>img.jet{
+    width: 60px;
+    height: 60px;
+}
+main>div>div.lottery{
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 6%;
+    text-align: center;
+}
+main>div>div>a>img.lottery1{
+    width: 60px;
+    height: 60px;
+}
+main>div>div.kharid{
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 6%;
+    text-align: center;
+}
+main>div>div>a>img.kharid1{
+    width: 60px;
+    height: 60px;
+}
+main>div>div.mehrabani{
+    display: inline-block;
+    width: 75px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 6%;
+    text-align: center;
+}
+main>div>div>a>img.mehrabani1{
+    width: 60px;
+    height: 60px;
+}
+main>div>div.madrese{
+    display: inline-block;
+    width: 90px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 6%;
+    text-align: center;
+}
+main>div>div>a>img.madrese1{
+    width: 60px;
+    height: 60px;
+}
+main>div>div.sood{
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 6%;
+    text-align: center;
+}
+main>div>div>a>img.sood1{
+    width: 60px;
+    height: 60px;
+}
+main>div>div.tabestan{
+    display: inline-block;
+    width: 90px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 6%;
+    text-align: center;
+}
+main>div>div>a>img.tabestan1{
+    width: 60px;
+    height: 60px;
+}
+main>div>div.bishtar{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #F0F0F1;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+main>div>div>a>img.more{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+main>div.pishnahad{
+    width: 1350px;
+    height: 310px ;
+    background-color:#EF394E ;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+main>div>div.box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-left:30px ;
+    margin-right: 40px;
+}
+main>div>div>a>p.text4{
+    width: min-content;
+    font-family: B-nazanin;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    color: white;
+    line-height: 35px;
+}
+main>div>div>a>p.text5{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    white-space: pre;
+    color: white;
+    font-family: B-nazanin;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+main>div>div.kafsh{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
+    margin-left:5px ;
+    font-size: 0;
+}
+main>div>div>a>img.kafsh1{
+    width: 200px;
+    margin-bottom: 45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main>div>div.eynak{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
+    margin-left:5px ;
+    font-size: 0;
+}
+main>div>div>a>img.eynak1{
+    width: 200px;
+    margin-bottom: 15px;
+    margin-bottom: 45px;
+}
+main>div>div.saat{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
+    margin-left:5px ;
+    font-size: 0;
+}
+main>div>div>a>img.saat1{
+    width: 200px;
+    margin-bottom: 15px;
+    margin-bottom: 45px;
+}
+main>div>div.t-shirt{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
+    margin-left: 5px;
+    font-size: 0;
+}
+main>div>div>a>img.t-shirt1{
+    width: 200px;
+    margin-bottom: 15px;
+    margin-bottom: 45px;
+}
+main>div>div.shalvar{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px ;
+    font-size: 0;
+}
+main>div>div>a>img.shalvar1{
+    width: 200px;
+    margin-bottom: 15px;
+    margin-bottom: 45px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+main>div.supermarket-2{
+    width: 1350px;
+    height: 100px;
+    margin: auto;
+    background-color: #EDEFED;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+main>div>div.sabad{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 0;
+} 
+main>div>div>a>img.sabad1{
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+main>div>div.text1{
+    display: inline-block;
+    width: 300px;
+    height: 58px;
+    margin-right: 50px;
+}
+main>div>div>a>img.fresh{
+    height: 30px;
+    position: absolute;
+    margin-bottom: 18px;
+}
+main>div>div.takhfif30{
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    background-color: #39AE00;
+    border-radius: 20px;
+    margin-bottom: 25px ;
+    margin-left: 100px; 
+}
+main>div>div>a.takhfif7{
+    position: absolute;
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    font-family: B-nazanin;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+main>div>div.tissue{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin-left: 0px;
+    font-size: 0;
+}
+main>div>div>a>img.tissue1{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin: 10px;
+}
+main>div>div.blueberry{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    font-size: 0;
+}
+main>div>div>a>img.blueberry1{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin: 10px;
+}
+main>div>div.kerem{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    font-size: 0;
+}
+main>div>div>a>img.kerem1{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin: 10px;
+}
+main>div>div.tootfarangi{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    font-size: 0;
+}
+main>div>div>a>img.tootfarangi1{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin: 10px;
+}
+main>div>div.shampoo{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    font-size: 0;
+}
+main>div>div>a>img.shampoo1{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin: 10px;
+}
+main>div>div.gosht{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    font-size: 0;
+}
+main>div>div>a>img.gosht1{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    margin: 10px;
+}
+main>div>div.more{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+main>div>div>a.more4{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: B-nazanin;
+    color: #39AE00;
+    text-align: center;
+}
+
+
+
+
+
+main>div.products{
+    width: 1350px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+main>div>div.bag{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    margin-left: 27px;
+}
+main>div>div>a>img.bag1{
+    width: 315px ;
+    height: 240px;
+    border-radius: 20px;
+}
+main>div>div.marker{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    border-radius: 20px;
+    margin-left: 27px;
+}
+main>div>div>a>img.marker1{
+    width: 315px ;
+    height: 240px;
+    border-radius: 20px;
+}
+main>div>div.sidebyside{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    margin-left: 24px;
+}
+main>div>div>a>img.sidebyside1{
+    width: 315px ;
+    height: 240px;
+    border-radius: 20px;
+}
+main>div>div.handology{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+}
+main>div>div>a>img.handology1{
+    width: 315px ;
+    height: 240px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+main>div.label{
+    width: 1350px;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+h1.text6{
+    text-align: center;
+    font-family: B-nazanin;
+    margin-top: 5px;
+}
+p.text3{
+    font-family: B-nazanin;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+main>div>div.headphone{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-right: 25px;
+    margin-left: 50px;
+}
+main>div>div>a>img.headphone1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div.mobile{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+main>div>div>a>img.mobile1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div.abzar{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+main>div>div>a>img.abzar1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div.kif{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+main>div>div>a>img.kif1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div.noon{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+main>div>div>a>img.noon1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div.mashin{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+}
+main>div>div>a>img.mashin1{
+    width: 170px;
+    height: 170px;
+}
+div.label2{
+    margin-top: 30px;
+}
+main>div>div>div.boomi{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-right: 130px;
+    margin-left: 50px;
+}
+main>div>div>div>a>img.boomi1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div>div.atr{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+main>div>div>div>a>img.atr1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div>div.lamp{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+main>div>div>div>a>img.lamp1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div>div.ketab{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+main>div>div>div>a>img.ketab1{
+    width: 170px;
+    height: 170px;
+}
+main>div>div>div.pingpong{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+}
+main>div>div>div>a>img.pingpong1{
+    width: 170px;
+    height: 170px;
+}
+
+
+
+
+
+main>div.offer{
+    width: 1350px;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+main>div>div.softlan{
+    display: inline-block;
+    width: 670px;
+    height: 260px;
+    margin-right: 4px;
+}
+main>div>div>a>img.softlan1{
+    width: 670px;
+    height: 260px;
+    border-radius: 20px;
+}
+main>div>div.ave{
+    display: inline-block;
+    width: 660px;
+    height: 260px;
+    margin-right: 11px;
+}
+main>div>div>a>img.ave1{
+    width: 660px;
+    height: 260px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+main>div.popularbrands{
+    width: 1350px;
+    height: 225px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+h1.text4{
+    text-align: center;
+    font-family: B-nazanin;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+main>div>div.panter{
+    display: inline-block;
+    width: 130px;
+    height: 120px;
+    margin-right: 30px;
+    font-size: 0;
+    border-left:2px solid #F0F0F1;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+main>div>div>a>img.panter1{
+    width: 110px;
+    height: 110px;
+}
+main>div>div.mi{
+    display: inline-block;
+    width: 130px;
+    height: 129px;
+    font-size: 0;
+    border-left:2px solid #F0F0F1;
+    margin-left: 20px;
+}
+main>div>div>a>img.mi1{
+    width: 110px;
+    height: 120px;
+    object-fit: contain;
+}
+main>div>div.kale{
+    display: inline-block;
+    width: 130px;
+    height: 129px;
+    margin-left: 20px;
+    font-size: 0;
+    border-left:2px solid #F0F0F1;
+}
+main>div>div>a>img.kale1{
+    width: 110px;
+    height: 120px;
+}
+main>div>div.huawei{
+    display: inline-block;
+    width: 140px;
+    height: 129px;
+    margin-left: 10px;
+    font-size: 0;
+    border-left:2px solid #F0F0F1;
+
+}
+main>div>div>a>img.huawei1{
+    width: 110px;
+    height: 120px;
+}
+main>div>div.samsung{
+    display: inline-block;
+    width: 190px;
+    height: 129px;
+    margin-left: 20px;
+    font-size: 0;
+    border-left:2px solid #F0F0F1;
+}
+main>div>div>a>img.samsung1{
+    width: 180px;
+    height: 120px;
+}
+main>div>div.persil{
+    display: inline-block;
+    width: 150px;
+    height: 129px;
+    margin-left: 20px;
+    font-size: 0;
+    border-left:2px solid #F0F0F1;
+}
+main>div>div>a>img.persil1{
+    width: 110px;
+    height: 120px;
+}
+main>div>div.pril{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+    font-size: 0;
+    border-left:2px solid #F0F0F1;
+}
+main>div>div>a>img.pril1{
+    width: 120px;
+    height: 120px;
+}
+main>div>div.bioaqua{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin-left: 30px;
+    font-size: 0;
+}
+main>div>div>a>img.bioaqua1{
+    width: 110px;
+    height: 110px;
+}
+
+
+
+
+
+
+div.offer2{
+    width: 1360px;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+div.tajrobe{
+    display: inline-block;
+    width: 670px;
+    height: 260px;
+    margin-right: 5px;
+}
+img.tajrobe1{
+    width: 670px;
+    height: 260px;
+    border-radius: 20px;
+}
+div.bekhar{
+    display: inline-block;
+    width: 660px;
+    height: 260px;
+    margin-right: 17px;
+}
+img.bekhar1{
+    width: 660px;
+    height: 260px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+main>div.digiplus{
+    width: 1350px;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #941B80;
+}
+main>div>div.digiplus3{
+    display: inline-block;
+    width: 420px;
+}
+main>div>div>a>img.digipluslogo{
+    width: 140px;
+    height: auto;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+main>div>div>p.text7{
+    color: white;
+    font-family: B-nazanin;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-right: 30px;
+    font-size: 19px;
+}
+main>div>div>a.ozviat1{ 
+    display: inline-block;
+    width: 110px; 
+    height: 45px;
+    font-size: 30px;
+    font-family: B-nazanin;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+}
+main>div>div>a>img.plus1{
+    display: inline-block;
+    width: 310px;
+    height: auto;
+    direction: ltr;
+    margin-right: 70px;
+}
+main>div>div.hedie{
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+img.khodkarabi{
+    width: 116px;
+    height: 116px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+img.bluepens{
+    width: 116px;
+    height: 116px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+img.redbook{
+    width: 116px;
+    height: 116px;
+    margin-bottom: 40px;
+}
+img.pakkon{
+    width: 116px;
+    height: 116px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+img.books{
+    width: 116px;
+    height: 116px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+img.medad{
+    width: 116px;
+    height: 116px;
+    margin-bottom: 30px;
+}
+main>div>div.foori{
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+img.head1{
+    width: 116px;
+    height: 116px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+img.samsunga13{
+    width: 116px;
+    height: 116px;
+    margin-bottom: 30px;
+}
+img.panbe{
+    width: 116px;
+    height: 116px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+img.head2{
+    width: 116px;
+    height: 116px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+p.text13{
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: B-nazanin;
+    font-size: 20px;
+}
+
+
+
+
+
+
+main>div.digiclub{
+    width: 1350px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #007295;
+    border-radius: 20px;
+}
+main>div>div.digiclublogo{
+    display: inline-block;
+    width: 180px;
+    height: 64px;
+    margin-left: 270px;
+}
+main>div>div>a>img.digiclublogo1{
+    width: 257px;
+    height: 54px;
+}
+main>div>div.lucky-draw{
+    display: inline-block;
+    width: 285px;
+    height: 64px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 0px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    direction: ltr;
+}
+main>div>div>a>img.lucky-draw1{
+    width: 168px;
+    height: 60px;
+    object-fit: cover;
+}
+main>div>div.mission{
+    display: inline-block;
+    width: 285px;
+    height: 64px;
+    margin-left: 0px;
+    margin-top: 12px;
+    margin-right: 0px;
+    background-color: white;
+    direction: ltr;
+}
+main>div>div>a>img.mission1{
+    width: 168px;
+    height: 60px;
+    object-fit: cover;
+}
+main>div>div.jayeze{
+    display: inline-block;
+    width: 285px;
+    height: 64px;
+    margin-right: 0px;
+    margin-top: 12px;
+    margin-left: 3px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    direction: ltr;
+}
+img.jayeze1{
+    width: 168px;
+    height: 60px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+span.text8{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: B-nazanin;
+    font-size: 25px;
+    position: absolute;
+}
+
+
+
+
+
+
+div.koodak{
+    width: 1350px;
+    height: 165px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+img.koodak1{
+    width: 1350px;
+    height: 165px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+main>div.readable{
+    width: 1350px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+main>div>div.android{
+    display: inline-block;
+    width: 328px;
+    height: 280px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+main>div>div>a>img.android1{
+    width: 328px;
+    height: 200px;
+    border-radius: 10px ;
+}
+main>div>div.iphone14{
+    display: inline-block;
+    width: 328px;
+    height: 280px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+main>div>div>a>img.iphone14-1{
+    width: 328px;
+    height: 200px;
+    border-radius: 10px ;
+}
+main>div>div.social{
+    display: inline-block;
+    width: 328px;
+    height: 280px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+main>div>div>a>img.social1{
+    width: 328px;
+    height: 200px;
+    border-radius: 10px ;
+}
+main>div>div.buds{
+    display: inline-block;
+    width: 328px;
+    height: 280px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 5px ;
+}
+main>div>div>a>img.buds1{
+    width: 328px;
+    height: 200px;
+    border-radius: 10px ;
+}
+p.text9{
+    font-family: B-nazanin;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+main>div>div.readable1{
+    display: inline-block;
+    width: 650px;
+}
+main>div>div>p.text10{
+    font-family: B-nazanin;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+main>div>div.readable2{
+    display: inline-block;
+    width: 675px;
+    direction: ltr;
+}
+main>div>div>a.text11{
+    font-family: B-nazanin;
+    font-size: 25px;
+    font-weight: 600;
+    color: #4E78AA;
+}
+
+
+
+
+
+footer{
+    width: 1400px;
+    height: 80px;
+    margin: auto;
+    background-color: #3C4B6D;
+    border-radius: 10px;
+}
+div.digikalalogo2{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 480px;
+    margin-bottom: 20px;
+}
+img.digikalalogo2-1{
+    width: 55px;
+    height: 55px;
+}
+div.googleplay{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+img.googleplay1{
+    width: 170px;
+    height: 55px;
+}
+div.bazar3{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+img.bazar3-1{
+    width: 170px;
+    height: 55px;
+}
+div.myket{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+img.myket1{
+    width: 170px;
+    height: 55px;
+}
+div.sibapp{
+    display: inline-block;
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+img.sibapp1{
+    width: 150px;
+    height: 55px;
+}
+div.more2{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+img.more2-1{
+    width: 55px;
+    height: 55px;
+}
+span.text12{
+    position: absolute;
+    font-family: B-nazanin;
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    margin-top: 10px;
+}
